@@ -20,7 +20,7 @@ const HookStructure = () => {
     
     useEffect(() => {
         console.log("매 랜더링마다 랜더링됨");
-    });
+    });//매 랜더링마다 실행
     return (
     <div>
         <h2 className="text-2xl">Count: {count}</h2>
